@@ -76,6 +76,11 @@ a {
 	margin: 0 auto;
 }
 
+.content-wrapper p{
+	padding-top: 30px;
+	line-height: 26px;
+}
+
 .container > header h1 {
 	font-size: 34px;
 	line-height: 38px;
@@ -135,7 +140,7 @@ a {
 	position: absolute;
 	z-index: 2000;
 	top: 30px;
-	right: 30px;
+	left: 30px;
 }
 
 .codrops-demos a {
@@ -148,8 +153,8 @@ a {
 }
 
 .codrops-demos a:hover {
-	color: #21c0c2;
-	border-color: #21c0c2;
+	color: #883d59;
+	border-color: #883d59;
 }
 
 .codrops-demos a.current-demo,
