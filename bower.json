@@ -1,0 +1,16 @@
+{
+  "name": "SlitSlider",
+  "version": "1.1.0",
+  "main": "js/jquery.slitslider.js",
+  "license": "MIT",
+  "ignore": [
+
+  ],
+  "keywords": [
+    "slider"
+  ],
+  "dependencies": {
+    "jquery": ">=1.5",
+    "modernizr": "2.*"
+  }
+}
