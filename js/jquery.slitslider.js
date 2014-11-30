@@ -588,7 +588,7 @@
 		// public method: pauses the slideshow
 		pause : function() {
 
-			if( this.isPlaying ) {
+			if( this.isPlaying || this.options.autoplay) {
 
 				this._stopSlideshow();
 
