@@ -63,7 +63,7 @@
 	padding: 200px 200px 0px 200px;
 }
 
-.sl-slide-horizontal .sl-content-slice:nth-child(2) {
+.sl-slide-horizontal .sl-content-slice:nth-of-type(2) {
 	top: 50%;
 	padding: 0px 200px 200px 200px;
 }
@@ -86,7 +86,7 @@
 	padding: 200px 0px 200px 200px;
 }
 
-.sl-slide-vertical .sl-content-slice:nth-child(2) {
+.sl-slide-vertical .sl-content-slice:nth-of-type(2) {
 	left: 50%;
 	padding: 200px 200px 200px 0px;
 }
