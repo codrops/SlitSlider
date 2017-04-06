@@ -122,7 +122,7 @@ $.fn.slitsliderEmulateTransitionEnd = function (duration) {
 			};
 			this.transEndEventName = this.transEndEventNames[ Modernizr.prefixed( 'transition' ) ];
 			// suport for css 3d transforms and css transitions
-			this.support = Modernizr.csstransitions && Modernizr.csstransforms3d;
+			this.support =  (Modernizr.csstransitions || Modernizr.cssanimations) && Modernizr.csstransforms3d;
 			// the slider
 			this.$el = this.$elWrapper.children( '.sl-slider' );
 			// the slides
