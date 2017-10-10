@@ -1,0 +1,19 @@
+{
+  "name": "slitslider",
+  "version": "1.0.0",
+  "description": "SlitSlider\r =========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toutoul/SlitSlider.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toutoul/SlitSlider/issues"
+  },
+  "homepage": "https://github.com/toutoul/SlitSlider#readme"
+}
